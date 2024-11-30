@@ -12,7 +12,23 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
           backgroundColor: Colors.teal,
-          body: SafeArea(child: Text("Hello World"))),
+          body: SafeArea(
+              child: Column(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('assets/images/me.png'),
+              ),
+              Text(
+                'manak1',
+                style: TextStyle(
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              )
+            ],
+          ))),
     );
   }
 }
