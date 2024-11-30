@@ -22,10 +22,10 @@ class MyApp extends StatelessWidget {
               Text(
                 'manak1',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
-                ),
+                    fontSize: 40.0,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Pacifico'),
               )
             ],
           ))),
